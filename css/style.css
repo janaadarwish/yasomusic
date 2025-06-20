@@ -1,0 +1,246 @@
+
+/* general */
+*{
+    margin: 0%;
+}
+
+body{
+    font-family:  "Shadows Into Light Two", cursive;
+    background-color: black;
+        overflow-x: hidden;
+}
+.quicklinks, .quicklinks a {
+  display: inline-block;
+  transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
+  width: 80%;
+  color: aliceblue;
+}
+
+.quicklinks:hover {
+  transform: translateX(20px);
+  background-color: rgba(255, 215, 0, 0.1);
+  color: gold;
+}
+
+
+.title{
+    font-family: "Playwrite IN", cursive;
+}
+.navbar {
+    background-color: black;
+}
+.navbar .navbar-nav .nav-link{
+    color: white;
+}
+.navbar .navbar-nav .nav-link.nav-link.active,
+.navbar .navbar-nav .nav-link.nav-link:focus,
+.navbar .navbar-nav .nav-link.nav-link:hover {
+    color: gold
+}
+
+.searchbar{
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    block-size: 25px;
+}
+.main-btn{
+    background-color: gold;
+    color: black;
+    border-color: gold;
+    font-size: medium;
+}
+
+i {
+  color: gold;
+  transition: color 0.3s ease;
+}
+
+.btn i{
+    color: black;
+}
+.btn:hover i,
+.btn:focus i,
+.btn:active i {
+  color: gold;
+}
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:hover{
+    background-color: black;
+    color: gold;
+    transition-duration: 0.5s;;
+}
+
+/* home */
+.landing{
+    background-image: url(../assets/CD.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: calc(100vh);
+}
+.realese{
+    background-image:url(../assets/youtube.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+    min-height: calc(100vh);
+}
+
+/* protofolio */
+.protolanding{
+    background-image: url(../assets/sunpic.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: calc(80vh);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.protolanding .overlay {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0.596);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paragraph{
+    font-family:  "Shadows Into Light Two", cursive;
+}
+.skills{
+    min-height: 140vh;
+}
+ .socialmedia{
+    background-image: url(../assets/back2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+ }
+ .socialmedia .a{
+    text-decoration: none;
+    color: white;
+ }
+ .card{
+    background-color: rgba(0, 0, 0, 0.349);
+ }
+ .card-body1{
+    background-color: rgba(0, 0, 0, 0.664);
+ }
+ .card-body p {
+  transition: color 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+.card-body p:hover {
+  color: gold;
+  transform: scale(1.05);
+}
+.card-img-overlay{
+    transition: color 0.6s ease-in-out, transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+.card-img-overlay:hover{
+    transform: scale(1.05);
+    color: gold;
+    background-color: rgba(0, 0, 0, 0.658);
+}
+.carousel-inner img {
+  object-fit: cover;
+  height: 400px;
+}
+.carousel-caption h5, .carousel-caption p {
+  transition: all 0.3s ease-in-out;
+}
+.carousel-caption:hover h5 {
+  letter-spacing: 1px;
+}
+
+
+
+ /* content */
+ .contentlanding{
+    background-image: url(../assets/back3.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: calc(100vh);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.contentlanding .overlay {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(2px);
+  background-color: rgba(0, 0, 0, 0.596);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.videos{
+        background-image: url(../assets/back3.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: calc(100vh);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.card-body{
+background-color: rgba(0, 0, 0, 0.596);
+}
+.videos .card {
+  background-color: #22222267;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+.videos .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(255, 215, 0, 0.2);
+  color: gold;
+}
+
+/* contact */
+.contactlanding{
+    background-image: url(../assets/back4.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: calc(100vh);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.contactlanding .overlay {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(2px);
+background-color: rgba(0, 0, 0, 0.596);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact{
+    background-image: url(../assets/back4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.input-group-text{
+    background-color: transparent;
+}
+form {
+  width: 50%;
+  backdrop-filter: blur(2px);
+  background-color: rgba(0, 0, 0, 0.596);
+}
+label{
+    color: gold;
+}
